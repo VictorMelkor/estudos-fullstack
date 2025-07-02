@@ -1,9 +1,9 @@
 # Plano de Estudos Victor - Resumo Básico
 > Este é um plano de estudos completo focado em desenvolvimento web fullstack. Contém os principais temas para formação como desenvolvedor, organizados para revisão e aprendizado contínuo.
 
-**Tarefas concluídas:** 25  
+**Tarefas concluídas:** 29  
 **Tarefas pendentes:** 65  
-**Progresso:** 27.8%
+**Progresso:** 30.85%
 
 
 
@@ -14,10 +14,10 @@
 - ✓ Operadores lógicos e aritméticos
 - ✓ Estruturas condicionais (`if`, `elif`, `else`)
 - ✓ Estruturas de repetição (`for`, `while`)
-- ✗ Listas, Tuplas e Dicionários (estrutura de dados básicas)
-- ✗ Funções
-- ✗ Recursividade (básico)
-- ✗ Exercícios Gerais de Lógica
+- ✓ Listas, Tuplas e Dicionários (estrutura de dados básicas)
+- ✓ Funções
+- ✓ Recursividade (básico)
+- ✓ Exercícios Gerais de Lógica
 
 ## Python e Programação
 - ✓ Fundamentos da linguagem Python
