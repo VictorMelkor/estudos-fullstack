@@ -1,9 +1,9 @@
 # Plano de Estudos Victor - Resumo Básico
 > Este é um plano de estudos completo focado em desenvolvimento web fullstack. Contém os principais temas para formação como desenvolvedor, organizados para revisão e aprendizado contínuo.
 
-**Tarefas concluídas:** 29  
-**Tarefas pendentes:** 65  
-**Progresso:** 30.85%
+**Tarefas concluídas:** 36  
+**Tarefas pendentes:** 58  
+**Progresso:** 38.30%
 
 
 
@@ -24,7 +24,7 @@
 - ✓ Funções, módulos e pacotes
 - ✓ Orientação a objetos
 - ✗ Trabalhando com arquivos
-- ✗ Estruturas de dados integradas (listas, dicionários, etc.)
+- ✓ Estruturas de dados integradas (listas, dicionários, etc.)
 - ✗ Estruturas de dados clássicas
 - ✗ Tratamento de Erros e Exceções
 - ✗ Testes Automatizados e Debug
@@ -47,7 +47,7 @@
 - ✗ Build Tools e Bundlers
 - ✗ Performance e Acessibilidade
 - ✗ DOM - Fundamentos
-- ✗ Design Responsivo
+- ✓ Design Responsivo
 - ✗ Estratégias de SEO
 - ✗ Acessibilidade com JS
 - ✗ Modularização com ES Modules
@@ -72,16 +72,16 @@
 - ✗ Django REST Framework (DRF)
 - ✗ Consultas avançadas e otimização
 - ✗ Consumo de APIs (frontend e backend)
-- ✗ Deploy Backend
+- ✓ Deploy Backend
 - ✗ Testes Backend
-- ✗ Padrões MVC e MTV
+- ✓ Padrões MVC e MTV
 
 ## Ferramentas e Práticas Profissionais
 - ✓ Git e controle de versão
 - ✗ Linha de comando / terminal
 - ✓ HTTP e conceitos web
-- ✗ Gerenciamento de pacotes e ambientes
-- ✗ Conceitos de cloud e deploy
+- ✓ Gerenciamento de pacotes e ambientes
+- ✓ Conceitos de cloud e deploy
 - ✗ Linters, Formatadores e Boas práticas
 - ✗ Workflow e metodologias ágeis
 - ✗ Docker para projetos web
@@ -89,6 +89,6 @@
 ## Portfólio e Freelance
 - ✓ Criar e organizar portfólio online
 - ✓ Preparar perfil para freelance
-- ✗ Networking e marketing pessoal
+- ✓ Networking e marketing pessoal
 - ✗ Gestão e organização do trabalho freelance
 - ✗ Aprimorar habilidades comerciais
