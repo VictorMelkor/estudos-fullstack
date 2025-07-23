@@ -1,13 +1,13 @@
-# Plano de Estudos Victor - Resumo Básico
-> Este é um plano de estudos completo focado em desenvolvimento web fullstack. Contém os principais temas para formação como desenvolvedor, organizados para revisão e aprendizado contínuo.
+# Plano de Estudos Victor - Resumo Básico  
+> Plano focado em desenvolvimento web fullstack, organizado para revisão e aprendizado contínuo.
 
-**Tarefas concluídas:** 42  
-**Tarefas pendentes:** 54  
-**Progresso:** 43.75%
+**Tarefas concluídas:** 46  
+**Tarefas pendentes:** 41  
+**Progresso:** 52.87%
 
 ---
 
-## 🧠 Fundamentos e Lógica ![Badge](https://img.shields.io/badge/Nível-Iniciante-blue)
+## 🧠 Fundamentos e Lógica ![Badge](https://img.shields.io/badge/Nível-Iniciante-blue)  
 - ✓ Dicionário de termos essenciais  
 - ✓ Introdução à lógica de programação  
 - ✓ Tipos de dados e variáveis  
@@ -18,16 +18,18 @@
 - ✓ Funções  
 - ✓ Recursividade (básico)  
 - ✓ Exercícios Gerais de Lógica  
+- ✗ Estruturas de dados avançadas (pilhas, filas, árvores)  
+- ✗ Análise de complexidade algorítmica (Big O)  
 
 ---
 
-## 🐍 Python e Programação ![Badge](https://img.shields.io/badge/Linguagem-Python-yellow)
+## 🐍 Python e Programação ![Badge](https://img.shields.io/badge/Linguagem-Python-yellow)  
 - ✓ Fundamentos da linguagem Python  
 - ✓ Funções, módulos e pacotes  
 - ✓ Orientação a objetos  
 - ✗ Trabalhando com arquivos  
 - ✓ Estruturas de dados integradas (listas, dicionários, etc.)  
-- ✗ Estruturas de dados clássicas  
+- ✗ Estruturas de dados clássicas (pilhas, filas, grafos, árvores)  
 - ✗ Tratamento de Erros e Exceções  
 - ✗ Testes Automatizados e Debug  
 - ✗ Ambiente e Ferramentas  
@@ -40,7 +42,24 @@
 
 ---
 
-## 🔙 Django, Backend, APIs e Integração ![Badge](https://img.shields.io/badge/Framework-Django-green)
+## 📜 JavaScript ![Badge](https://img.shields.io/badge/Linguagem-JavaScript-yellow)  
+- ✓ Lógica de programação e algoritmos  
+- ✓ Fundamentos do JavaScript (variáveis, tipos, operadores)  
+- ✓ Controle de fluxo: if/else, switch, loops  
+- ✓ Funções, escopo e arrow functions  
+- ✓ JavaScript moderno (ES6+)  
+- ✓ Manipulação do DOM e eventos  
+- ✓ DOM - Fundamentos  
+- ✓ Armazenamento local (localStorage e sessionStorage)  
+- ✓ Modularização com ES Modules  
+- ✓ Manipulação de erros (try/catch, validações)  
+- ✗ Acessibilidade com JavaScript  
+- ✗ Testes com JavaScript (Jest ou Vitest)  
+- ✗ TypeScript - Fundamentos básicos  
+
+---
+
+## 🔙 Django, Backend, APIs e Integração ![Badge](https://img.shields.io/badge/Framework-Django-green)  
 - ✓ Fundamentos Django  
 - ✓ Forms e validação  
 - ✓ Autenticação e autorização  
@@ -53,7 +72,7 @@
 
 ---
 
-## 🎨 HTML e CSS ![Badge](https://img.shields.io/badge/Frontend-HTML%2FCSS-orange)
+## 🎨 HTML e CSS ![Badge](https://img.shields.io/badge/Frontend-HTML%2FCSS-orange)  
 - ✓ Introdução ao HTML e estrutura de documentos  
 - ✓ HTML semântico e boas práticas  
 - ✓ Formulários, inputs e validações nativas  
@@ -67,24 +86,7 @@
 
 ---
 
-## 📜 JavaScript ![Badge](https://img.shields.io/badge/Linguagem-JavaScript-yellow)
-- ✓ Lógica de programação e algoritmos  
-- ✓ Fundamentos do JavaScript (variáveis, tipos, operadores)  
-- ✓ Controle de fluxo: if/else, switch, loops  
-- ✓ Funções, escopo e arrow functions  
-- ✗ JavaScript moderno (ES6+)  
-- ✗ Manipulação do DOM e eventos  
-- ✗ DOM - Fundamentos  
-- ✗ Armazenamento local (localStorage e sessionStorage)  
-- ✗ Modularização com ES Modules  
-- ✗ Manipulação de erros (try/catch, validações)  
-- ✗ Acessibilidade com JavaScript  
-- ✗ Testes com JavaScript (Jest ou Vitest)  
-- ✗ TypeScript - Fundamentos básicos  
-
----
-
-## ⚛️ Frameworks e Bibliotecas Frontend ![Badge](https://img.shields.io/badge/Frontend-React-blueviolet)
+## ⚛️ Frameworks e Bibliotecas Frontend ![Badge](https://img.shields.io/badge/Frontend-React-blueviolet)  
 - ✗ React básico (JSX, props, state, events)  
 - ✗ React avançado (hooks, context, roteamento)  
 - ✗ Build Tools e Bundlers (Vite, Webpack)  
@@ -96,7 +98,7 @@
 
 ---
 
-## 🗄️ Banco de Dados ![Badge](https://img.shields.io/badge/Banco%20de%20Dados-SQL%20%26%20NoSQL-blue)
+## 🗄️ Banco de Dados ![Badge](https://img.shields.io/badge/Banco%20de%20Dados-SQL%20%26%20NoSQL-blue)  
 - ✓ Fundamentos de banco de dados  
 - ✓ SQL básico  
 - ✓ Modelagem relacional  
@@ -107,7 +109,7 @@
 
 ---
 
-## ⚙️ Ferramentas e Práticas Profissionais ![Badge](https://img.shields.io/badge/DevTools-Profissional-lightgrey)
+## ⚙️ Ferramentas e Práticas Profissionais ![Badge](https://img.shields.io/badge/DevTools-Profissional-lightgrey)  
 - ✓ Git e controle de versão  
 - ✗ Linha de comando / terminal  
 - ✓ HTTP e conceitos web  
@@ -119,9 +121,28 @@
 
 ---
 
-## 💼 Portfólio e Freelance ![Badge](https://img.shields.io/badge/Carreira-Freelancer-brightgreen)
+## 💼 Portfólio e Freelance ![Badge](https://img.shields.io/badge/Carreira-Freelancer-brightgreen)  
 - ✓ Criar e organizar portfólio online  
 - ✓ Preparar perfil para freelance  
 - ✓ Networking e marketing pessoal  
 - ✗ Gestão e organização do trabalho freelance  
 - ✗ Aprimorar habilidades comerciais  
+
+---
+
+## Autor
+
+
+[![GitHub](https://img.shields.io/badge/GitHub-VictorMelkor-181717?style=flat&logo=github)](https://github.com/VictorMelkor)  
+[![Portfólio](https://img.shields.io/badge/Portfólio-Online-blueviolet?style=flat&logo=google-chrome)](https://victormelkor.github.io)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-victormelkor-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/victormelkor)  
+[![Instagram](https://img.shields.io/badge/Instagram-victormelkor-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/victormelkor)  
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat-25D366?style=flat&logo=whatsapp&logoColor=white)](https://wa.me/5585988209392)
+
+---
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT.  
+Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
