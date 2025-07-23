@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+  background-color: rgb(13, 13, 13);
+  color: rgb(228, 228, 228);
+  padding: 5rem 3rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  font-size: 1.75rem;
+  min-height: 80vh;
+  width: 70%;
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: rgb(30, 30, 30);
+  padding: 3rem;
+  border-radius: 1rem;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.secoes-juntas {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.secoes-juntas section {
+  font-size: 1.25rem;
+  min-height: 50vh;
+  width: 30%;
+  margin: 0;
+  padding: 2rem;
+}
+
+section.animar {
+  opacity: 0;
+  transform: translateX(200px);
+  filter: blur(10px);
+  transition: all 1s;
+}
+
+section.animar-visivel {
+  opacity: 1;
+  transform: translateX(0);
+  filter: blur(0);
+}
+
+.secoes-juntas section:nth-of-type(2) {
+  transition-delay: 300ms;
+}
