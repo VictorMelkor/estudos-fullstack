@@ -39,3 +39,5 @@ Este é um projeto de lista de tarefas inspirado no estilo do aplicativo Ceep, d
 [![GitHub - victormelkor](https://img.shields.io/badge/GitHub-victormelkor-181717?style=for-the-badge&logo=github)](https://github.com/victormelkor)
 
 [![Portfólio](https://img.shields.io/badge/Portfólio-victormelkor.github.io-blue?style=for-the-badge&logo=githubpages&logoColor=white)](https://victormelkor.github.io)
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=victormelkor&theme=radical&locale=pt_BR&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
