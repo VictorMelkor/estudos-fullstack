@@ -82,7 +82,7 @@ contatos.pop("guilherme@gmail.com") #{"nome": "Guilherme", "telefone": "3333-123
 contatos.pop("guilherme@gmail.com", {}) # {} # retorna um dict vazio caso não encontre a chave buscada
 
 ##########################
-# .setdefautl # 
+# .setdefautl # serve para adicionar valores caso não existam no dict sem necessidade de verificar todas as chaves:valores
 
 contatos = {
     'guilherme@gmail.com': {"Nome": "Guilhemre", "idade": 28, "telefone": "3333-1234"}
@@ -93,3 +93,57 @@ contatos # {"nome": "Guilherme", "telefone": "3333-1234"}
 
 contatos.setdefault("idade", 28) # 28 ## se o atributo indicado não existir, ele adiciona o atributo e valor
 contatos # {"nome": "Guilherme", "telefone": "3333-1234", "idade": 28}
+
+##########################
+# .update # serve para atualizar o dicionário com outro dicionário
+
+contatos = {
+    'guilherme@gmail.com': {"Nome": "Guilhemre", "idade": 28, "telefone": "3333-1234"}
+}
+
+contatos.update({"guilherme@gmail.com": {"nome": "Gui"}}) # sobrescreve os valores do dicionario se a chave já existe
+contatos # {"guilherme@gmail.com": {"nome": "Gui"}}
+
+contatos.update({"giovana@gmail.com": {"nome": "Giovana", "telefone": "3322-8181"}}) # adiciona os valores se a chave não existir
+contatos # {"guilherme.com": {"nome": "Gui"}, "giovana@gmail.com": {"nome": Giovana}, "telefone": "3322-8181"}
+
+
+##########################
+# .values # retorna os valores, da mesmo forma que .keys retorna as chaves
+
+contatos = {
+    'guilherme@gmail.com': {"Nome": "Guilhemre", "idade": 28, "telefone": "3333-1234"},
+    'maria@gmail.com': {"nome": "Maria", "idade": 28, "telefone": "9988-1781"},
+    "chappie@gmail.com": {"nome": "Chappie", "idade": 18, "telefone": "1234-1234"},
+    "melanie@gmail.com": {"nome": "Melanie", "idade": 37, "telefone": "4512-2154"},
+    } 
+
+##########################
+# .in # retorna booleano se o valor solicitado existe no dicionário
+
+contatos = {
+    'guilherme@gmail.com': {"Nome": "Guilhemre", "idade": 28, "telefone": "3333-1234"},
+    'maria@gmail.com': {"nome": "Maria", "idade": 28, "telefone": "9988-1781"},
+    "chappie@gmail.com": {"nome": "Chappie", "idade": 18, "telefone": "1234-1234"},
+    "melanie@gmail.com": {"nome": "Melanie", "idade": 37, "telefone": "4512-2154"},
+    } 
+
+"guilherme@gmail.com" in contatos # True
+"@megui@gmail.com" in contatos # False
+"idade" in ["guilherme@gmail.com"] # False
+
+
+##########################
+# .del # remove o objeto passado
+
+contatos = {
+    'guilherme@gmail.com': {"Nome": "Guilhemre", "idade": 28, "telefone": "3333-1234"},
+    'maria@gmail.com': {"nome": "Maria", "idade": 28, "telefone": "9988-1781"},
+    "chappie@gmail.com": {"nome": "Chappie", "idade": 18, "telefone": "1234-1234"},
+    "melanie@gmail.com": {"nome": "Melanie", "idade": 37, "telefone": "4512-2154"},
+    } 
+
+del contatos["guilherme@gmail.com"]["telefone"] #remove telefone dentro do dicionário guilherme@gmail.com
+del contatos["chappie@gmail.com"] # remove todo o dicionário com esse valor
+
+contatos # {'guilherme@gmail.com': {"Nome": "Guilhemre", "idade": 28}, 'maria@gmail.com': {"nome": "Maria", "idade": 28, "telefone": "9988-1781"}, "melanie@gmail.com": {"nome": "Melanie", "idade": 37, "telefone": "4512-2154"}} 
