@@ -47,7 +47,7 @@ const api = {
 
     async excluirPensamento(id) {
         try {
-            const response = await axios.delete(`${URL_BASE}/pensamentos/${id}`, pensamento)
+            const response = await axios.delete(`${URL_BASE}/pensamentos/${id}`, id)
         }
         catch {
                 alert('Erro ao excluir pensamentos');

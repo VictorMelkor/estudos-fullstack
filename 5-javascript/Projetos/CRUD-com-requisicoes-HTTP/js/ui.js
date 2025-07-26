@@ -20,7 +20,7 @@ const ui = {
 
         try {
             const pensamentos = await api.buscarPensamentos()
-            pensamentos.forEach(ui.adicionarPensamentoNaLista)
+            
             if (pensamentos.length === 0) {
                 mensagemVazia.style.display = "block";
             } else {
