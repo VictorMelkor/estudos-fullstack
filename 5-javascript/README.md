@@ -18,10 +18,10 @@
 
 ## 🔜 Em andamento / Pendentes:
 
-- ❌ JavaScript moderno (ES6+)  
-- ❌ Manipulação do DOM e eventos  
-- ❌ DOM - Fundamentos  
-- ❌ Armazenamento local (localStorage e sessionStorage)  
+- ✅ JavaScript moderno (ES6+)  
+- ✅ Manipulação do DOM e eventos  
+- ✅ DOM - Fundamentos  
+- ✅ Armazenamento local (localStorage e sessionStorage)  
 - ❌ Modularização com ES Modules  
 - ❌ Manipulação de erros (try/catch, validações)  
 - ❌ Acessibilidade com JavaScript  

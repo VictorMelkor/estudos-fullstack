@@ -22,7 +22,7 @@
 
 - ❌ Frameworks CSS (Bootstrap, Tailwind)  
 - ❌ Estratégias de SEO on-page  
-- ❌ Acessibilidade básica (sem JS)  
+- ✅ Acessibilidade básica (sem JS)  
 - ❌ Performance CSS e boas práticas de renderização  
 
 ---
