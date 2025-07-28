@@ -50,11 +50,26 @@ const api = {
             const response = await axios.delete(`${URL_BASE}/pensamentos/${id}`, id)
         }
         catch {
-                alert('Erro ao excluir pensamentos');
-                throw error
-            }
+            alert('Erro ao excluir pensamentos');
+            throw error
         }
+    },
+
+    async buscarPensamentosPorTermo(termo) {
+        try {
+            const pensamentos = await this.buscarPensamentos()
+            const termoEmMinusculas = termo.toLowerCase()
+
+            const pensamentosFiltrados = pensamentos.filter(pensamento => {
+                return pensamento.conteudo.toLowerCase().includes(termoEmMinusculas) || pensamento.autoria.toLowerCase().includes(termoEmMinusculas)
+            })
+            return pensamentosFiltrados
+        } catch {
+            alert("Erro ao filtrar pensamentos")
+        }
+
     }
+}
 
 
 export default api; 
