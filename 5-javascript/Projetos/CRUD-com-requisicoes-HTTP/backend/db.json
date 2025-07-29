@@ -74,7 +74,7 @@
       "id": "4d2e",
       "conteudo": "Se eu for aí e achar, eu esfrego na sua cara!",
       "autoria": "Mãe",
-      "favorito": false,
+      "favorito": true,
       "data": "2025-05-10T13:50:18.432Z"
     },
     {
@@ -82,6 +82,26 @@
       "conteudo": "          dadfaf",
       "autoria": "asdfafda",
       "data": "2025-07-16"
+    },
+    {
+      "id": "88ac",
+      "conteudo": "          dasfa",
+      "autoria": "dafad",
+      "data": "2025-07-23"
+    },
+    {
+      "id": "e528",
+      "conteudo": "          fasdfa",
+      "autoria": "adfsafdsa",
+      "data": "2025-08-24T00:00:00.000Z",
+      "favorito": true
+    },
+    {
+      "id": "01cc",
+      "conteudo": "          dfas",
+      "autoria": "dsfa",
+      "data": "2025-08-15T00:00:00.000Z",
+      "favorito": false
     }
   ]
 }
