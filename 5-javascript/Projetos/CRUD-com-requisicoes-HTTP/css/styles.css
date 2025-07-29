@@ -125,7 +125,8 @@ h3 {
 }
 
 #pensamento-conteudo,
-#pensamento-autoria {
+#pensamento-autoria,
+#pensamento-data {
   padding: 16px;
   border-radius: 8px;
   background: var(--Cinza-claro, #EDF0F4);
