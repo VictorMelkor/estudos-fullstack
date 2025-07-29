@@ -1,3 +1,7 @@
+// Para ler e escrever dados em C#, utilizamos os seguintes métodos da classe Console:
+// - Console.ReadLine: lê UMA linha com dado(s) de Entrada (Inputs) do usuário;
+// - Console.WriteLine: imprime um texto de Saída(Output) e pulando uma linha.
+
 using System;
 
 public class Desafio
