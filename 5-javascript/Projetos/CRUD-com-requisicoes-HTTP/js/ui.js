@@ -27,7 +27,7 @@ const ui = {
                 pensamentosParaRenderizar = await api.buscarPensamentos()
             }
 
-                        
+
             if (pensamentosParaRenderizar.length === 0) {
                 mensagemVazia.style.display = "block";
             } else {
@@ -60,12 +60,29 @@ const ui = {
         pensamentoAutoria.textContent = pensamento.autoria
         pensamentoAutoria.classList.add("pensamento-autoria")
 
+        const botaoFavorito = document.createElement("button")
+        botaoFavorito.classList.add("botao-favorito")
+        botaoFavorito.onclick = async () => {
+            try {
+                await api.atualizarFavorito(pensamento.id, !pensamento.favorito)
+                ui.renderizarPensamentos
+            } catch (error) {
+                alert("Erro ao atualizar pensamento")
+            }
+        }
 
         const botaoEditar = document.createElement("button")
         botaoEditar.classList.add("botao-editar")
         botaoEditar.onclick = () => {
             ui.preencherFormulario(pensamento.id)
         }
+
+        const iconeFavorito = document.createElement("img")
+        iconeFavorito.src = pensamento.favorito ? "assets/imagens/icone-favorito.png" : "assets/imagens/icone-favorito_outline.png"
+
+        iconeFavorito.alt = "Icone de favorito"
+        botaoFavorito.appendChild(iconeFavorito)
+
 
         const iconeEdicao = document.createElement("img")
         iconeEdicao.src = "assets/imagens/icone-editar.png"
@@ -90,6 +107,7 @@ const ui = {
 
         const icones = document.createElement("div")
         icones.classList.add("icones")
+        icones.appendChild(botaoFavorito)
         icones.appendChild(botaoEditar)
         icones.appendChild(botaoExcluir)
 
@@ -103,9 +121,9 @@ const ui = {
 
 
         listaPensamentos.appendChild(li)
-    }, 
+    },
 
-    
+
 }
 
 
