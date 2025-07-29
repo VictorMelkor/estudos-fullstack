@@ -1,5 +1,5 @@
 ####################################
-# Módulo Datetime
+# Módulo datetime
 # usado para lidar com datas e horas (date, time, timedelta)
 
 ####################################
@@ -26,9 +26,43 @@ print(data_hora_opcional) # 2025-07-29 00:00:00
 print(datetime.today()) # imprime dia e hora atual, com milisegundos
 
 ####################################
-# Time
+# time
 
 from datetime import time # apenas hora
 
 hora = time(10, 20, 0)
 print(hora) # 10:20:00
+
+####################################
+# timedelta
+
+from datetime import timedelta # realiza operação de passagem de tempo
+
+# criando data e hora
+data = datetime(2025, 7, 29, 13, 45)
+print(data) # 2025-07-29 13:45:00
+
+# adicionando uma semana
+data = data + timedelta(weeks=1) # passagem de 7 dias
+print(data) # 2025-08-07 13:45:00
+
+# Exemplo prático (tempo de lavagem de carro)
+
+tipo_carro = 'M' # P, M, G
+tempo_pequeno = 30 # minutos
+tempo_medio = 45
+tempo_grande = 60
+data_atual = datetime.now() # trás data com fuso horário
+
+if tipo_carro == 'P':
+    data_estimada = data_atual + timedelta(minutes=tempo_pequeno) # poderia ser days, weeks, seconds, etc
+    print(f'O carro chegou: {data_atual} e ficará `as {data_estimada}')
+    pass
+elif tipo_carro == 'M':
+    data_estimada = data_atual + timedelta(minutes=tempo_medio) # a operação poderia também ser de decreção (-)
+    print(f'O carro chegou: {data_atual} e ficará `as {data_estimada}')
+    pass
+else:
+    data_estimada = data_atual + timedelta(minutes=tempo_grande)
+    print(f'O carro chegou: {data_atual} e ficará `as {data_estimada}')
+    pass
